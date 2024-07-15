@@ -53,8 +53,15 @@ ul {
 
 }
 
+.section1 {
+    display: flex;
+}
+
 .section1_cover {
     position: relative;
+    display: flex;
+    width: 100%;
+
 }
 
 
@@ -122,10 +129,17 @@ h4 {
 }
 
 .section3 {
+    width: min(100%, 446px);
     display: flex;
     margin-top: 96px;
+    justify-content: space-between;
+}
+
+.article1_h4 {
+    
 }
 
 p {
     color: #FFFFFF;
 }
+
